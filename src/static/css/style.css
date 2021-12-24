@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.App {
+  margin-bottom: 90px;
+}
+
+.con {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.font1 {
+  font-family: 'Comic Sans MS', 'Gill Sans';
+}
+
+.font2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.font3 {
+  font-family: Calibri;
+}
+
+.font4 {
+  font-family: Times;
+  font-weight: lighter;
+}
+
+.fwB {
+  font-weight: bold;
+}
+
+.fwR {
+  font-weight: normal;
+}
+
+.fwL {
+  font-weight: lighter;
+}
+
+.fsPrimary {
+  font-size: 13px;
+}
+
+.header {
+  font-size: 20px;
+  letter-spacing: 3.9px;
+}
+
+.grey-box {
+  background-color: #eee;
+  padding: 10px 8px;
+}
+
+.fs12 {
+  font-size: 12px;
+}
+
+.header_and_sideBar {
+  margin-top: 20px;
+}
+
+.header_and_sideBar .header-name {
+  font-size: 20px;
+}
+
+.section-about {
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .section-about {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.section-about .img-con {
+  width: 114px;
+  height: 114px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .section-about .img-con {
+    width: 192px;
+    height: 192px;
+    margin-left: 0;
+  }
+}
+
+.section-about .img-con img {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-about .about-section {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+@media (min-width: 768px) {
+  .section-about .about-section {
+    width: 67%;
+    margin-top: 90px;
+  }
+}
+
+.section-about .about-section .dark-line {
+  border: 2px solid #000;
+  width: 111px;
+}
+
+.section-about .about-section .left-line {
+  margin-bottom: 25px;
+}
+
+.section-about .about-section .right-line {
+  margin-left: auto;
+  margin-top: 25px;
+}
+
+.section-about .about-section .about-header {
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.section-about .about-section .about-info {
+  font-size: 12px;
+  margin-bottom: 18px;
+}
+
+.section-about .about-section .icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  margin-left: auto;
+}
+
+.stack-list-con .skill {
+  font-size: 13px;
+  letter-spacing: 4.5px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.stack-list-con .stack-header {
+  font-size: 20px;
+  letter-spacing: 3.9px;
+  margin-bottom: 26px;
+}
+
+.stack-list-con .stack-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 0.3px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 19px;
+}
+
+.stack-list-con .stack-con .stack {
+  font-size: 16px;
+}
+
+.stack-list-con .stack-con .level {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.stack-list-con .note-for-stack {
+  font-size: 12px;
+  margin-bottom: 85px;
+}
+
+.stack-list-con .other-skills {
+  margin-bottom: 15px;
+}
+
+.stack-list-con .links {
+  color: #000;
+  text-decoration: underline;
+}
+
+.section-education .edu-header {
+  margin-bottom: 10px;
+  margin-top: 90px;
+}
+
+.section-education .education-box-container {
+  margin-bottom: 12px;
+}
+
+.section-education .edu-info {
+  font-size: 12px;
+}
+
+.section-education .school {
+  margin-bottom: 5px;
+}
+
+.section-education .study {
+  margin-bottom: 9px;
+}
+
+.section-exp {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.section-exp .exp-header {
+  margin-bottom: 10px;
+}
+
+.section-exp .exp-box {
+  margin-bottom: 15px;
+}
+
+.section-exp .exp-box a {
+  text-decoration: none;
+}
+
+.section-exp .company {
+  margin-bottom: 5px;
+}
+
+.section-exp .users {
+  margin-bottom: 8px;
+}
+
+.contact-btn-con {
+  background-color: #000;
+  text-align: center;
+  width: 153px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+}
+
+.contact-btn-con a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */

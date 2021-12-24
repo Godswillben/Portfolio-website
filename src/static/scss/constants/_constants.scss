@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.App{
+    margin-bottom: 90px;
+}
+.con{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.full-width{
+    width:100%;
+}
+.font1{
+    font-family: 'Comic Sans MS', 'Gill Sans';
+}
+.font2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.font3{
+    font-family: Calibri;
+}
+.font4{
+    font-family: Times;
+    font-weight: lighter;
+}
+.fwB{
+    font-weight: bold;
+}
+.fwR{
+    font-weight: normal;
+}
+.fwL{
+    font-weight: lighter;
+}
+.fsPrimary{
+    font-size: 13px;
+}
+.header{
+    font-size: 20px;
+    letter-spacing: 3.9px;
+}
+.grey-box{
+    background-color: #eee;
+    padding: 10px 8px;
+}
+.fs12{
+    font-size: 12px;
+}
