@@ -5,6 +5,9 @@
         display: flex;
         justify-content: space-between;
     }
+    @media (min-width: 1200px){
+        margin-top: 0;
+    }
     .img-con{
         width: 114px;
         height: 114px;
@@ -19,6 +22,9 @@
             // margin-right: 10px;
             margin-left: 0;
         }
+        @media (min-width: 1200px){
+            display: none;
+        }
         
         img{
             position: absolute;
@@ -31,6 +37,9 @@
         @media (min-width:768px){
             width: 67%;
             margin-top: 90px;
+        }
+        @media (min-width: 1200px){
+            width: 100%;
         }
         .dark-line{
             border: 2px solid #000;
@@ -57,6 +66,10 @@
             justify-content: space-between;
             width: 50%;
             margin-left: auto;
+            @media (min-width: 1200px){
+                width: 20%;
+            }
+            
         }
     }
 }

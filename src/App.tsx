@@ -10,12 +10,14 @@ function App() {
   return (
     <div className="App con">
       <Header username={username} />
-      <Banner />
-      <Stacks />
-      <Education />
-      <Experience />
-      <div className="contact-btn-con">
-        <a href='#' className='font1'>Contact Me</a>
+      <div className="page-info-con">
+        <Banner />
+        <Stacks />
+        <Education />
+        <Experience />
+        <div className="contact-btn-con">
+          <a href='#' className='font1'>Contact Me</a>
+        </div>
       </div>
     </div>
   );

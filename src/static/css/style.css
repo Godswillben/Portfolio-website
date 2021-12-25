@@ -66,12 +66,67 @@
   font-size: 12px;
 }
 
+.white {
+  color: #fff;
+}
+
 .header_and_sideBar {
   margin-top: 20px;
 }
 
+@media (min-width: 1200px) {
+  .header_and_sideBar {
+    margin-top: 0px;
+  }
+}
+
 .header_and_sideBar .header-name {
   font-size: 20px;
+}
+
+@media (min-width: 1200px) {
+  .header_and_sideBar .header-name {
+    display: none;
+  }
+}
+
+.header_and_sideBar .side-bar {
+  display: none;
+  background: #000;
+}
+
+@media (min-width: 1200px) {
+  .header_and_sideBar .side-bar {
+    display: block;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    padding: 0px 20px;
+  }
+}
+
+.header_and_sideBar .side-bar .profile-pic {
+  width: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.header_and_sideBar .side-bar .username {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 44vh;
+}
+
+.header_and_sideBar .side-bar .sub-header {
+  margin-bottom: 6px;
+}
+
+.header_and_sideBar .side-bar .skill-list {
+  font-size: 15px;
 }
 
 .section-about {
@@ -87,6 +142,12 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-about {
+    margin-top: 0;
   }
 }
 
@@ -108,6 +169,12 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .section-about .img-con {
+    display: none;
+  }
+}
+
 .section-about .img-con img {
   position: absolute;
   -o-object-fit: cover;
@@ -123,6 +190,12 @@
   .section-about .about-section {
     width: 67%;
     margin-top: 90px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-about .about-section {
+    width: 100%;
   }
 }
 
@@ -160,6 +233,12 @@
           justify-content: space-between;
   width: 50%;
   margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .section-about .about-section .icon-container {
+    width: 20%;
+  }
 }
 
 .stack-list-con .skill {
@@ -254,6 +333,13 @@
 
 .section-exp .users {
   margin-bottom: 8px;
+}
+
+@media (min-width: 1200px) {
+  .page-info-con {
+    width: 60%;
+    margin-left: auto;
+  }
 }
 
 .contact-btn-con {

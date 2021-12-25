@@ -5,6 +5,13 @@
 @import './education/education';
 @import './experience/experience';
 
+.page-info-con{
+    @media (min-width:1200px){
+        width: 60%;
+        margin-left: auto;
+    }
+}
+
 .contact-btn-con{
     background-color: #000;
     text-align: center;
